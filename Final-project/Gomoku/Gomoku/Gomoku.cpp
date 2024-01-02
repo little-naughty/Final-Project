@@ -130,7 +130,7 @@ int main(void) {
 	int winner = 0;		//贏家：預設暫時沒有
 
 	while (1) {
-		//清屏，並顯示現在是誰走棋
+		
 		system("cls");
 		printf("現在是【%c】方走棋……\n", toSymbol(turn));
 
@@ -156,7 +156,7 @@ int main(void) {
 		//接收鍵盤事件
 		key = _getch();
 
-		//按WASD進行控制，空格鍵落子，L鍵結束遊戲
+		//按WASD進行控制，空格鍵落子，ESC鍵結束遊戲
 		switch (key) {
 		case 'w': 
 		case 'W':
