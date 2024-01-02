@@ -1,0 +1,3 @@
+﻿  Gomoku.cpp
+C:\Users\chene\OneDrive\桌面\Final-Project\Gomoku\Gomoku\Gomoku.cpp(19): warning C4715: 'toSymbol': 不是所有控制路徑都傳回值
+  Gomoku.vcxproj -> C:\Users\chene\OneDrive\桌面\Final-Project\Gomoku\x64\Debug\Gomoku.exe
